@@ -1,10 +1,34 @@
-[gd_scene load_steps=2 format=3 uid="uid://c5pl5i18budyo"]
+[gd_scene load_steps=4 format=3 uid="uid://c5pl5i18budyo"]
 
+[ext_resource type="Script" path="res://hotel rooms/room_101.gd" id="1_1bysl"]
 [ext_resource type="Texture2D" uid="uid://dfe6y2oya27wt" path="res://sunny-land/assets/environment/DALL·E 2024-03-30 15.22.52 - Create a pixel art image of a large and tidy hotel room. The room should have a spacious feel with more distance between furniture and walls. The door.webp" id="1_rfojp"]
+[ext_resource type="Texture2D" uid="uid://7rwls0o6w1pc" path="res://sunny-land/assets/atlas/back.png" id="2_rjnmf"]
 
 [node name="Node2D" type="Node2D"]
+script = ExtResource("1_1bysl")
 
-[node name="Dall·e2024-03-3015_22_52-CreateAPixelArtImageOfALargeAndTidyHotelRoom_TheRoomShouldHaveASpaciousFeelWithMoreDistanceBetweenFurnitureAndWalls_TheDoor" type="Sprite2D" parent="."]
-position = Vector2(840, 848)
-scale = Vector2(1.64062, 1.64062)
+[node name="room 101" type="Sprite2D" parent="."]
+position = Vector2(576, 320)
+scale = Vector2(0.853516, 0.666607)
 texture = ExtResource("1_rfojp")
+
+[node name="Back" type="Sprite2D" parent="."]
+position = Vector2(216, 24)
+scale = Vector2(0.0605469, 0.0605469)
+texture = ExtResource("2_rjnmf")
+
+[node name="back" type="Button" parent="Back"]
+show_behind_parent = true
+light_mask = 0
+visibility_layer = 0
+anchors_preset = -1
+anchor_left = 0.516
+anchor_top = 0.5
+anchor_right = 0.516
+anchor_bottom = 0.5
+offset_left = -1593.55
+offset_top = -726.709
+offset_right = -404.549
+offset_bottom = -330.709
+
+[connection signal="pressed" from="Back/back" to="." method="_on_button_pressed"]

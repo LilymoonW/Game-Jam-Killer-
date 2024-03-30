@@ -1,0 +1,29 @@
+[gd_scene load_steps=3 format=3 uid="uid://d045dedtw2dub"]
+
+[ext_resource type="Script" path="res://hotel rooms/hallway.gd" id="1_ahcmj"]
+[ext_resource type="Texture2D" uid="uid://bx34c0lrk0i11" path="res://sunny-land/assets/environment/Untitled design.png" id="2_a7k2f"]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_ahcmj")
+
+[node name="UntitledDesign" type="Sprite2D" parent="."]
+position = Vector2(578.125, 320)
+scale = Vector2(0.578125, 0.625)
+texture = ExtResource("2_a7k2f")
+
+[node name="room 101" type="Button" parent="UntitledDesign"]
+show_behind_parent = true
+offset_left = -480.0
+offset_top = -280.0
+offset_right = -128.0
+offset_bottom = 296.0
+
+[node name="room 102" type="Button" parent="UntitledDesign"]
+show_behind_parent = true
+offset_left = 144.0
+offset_top = -272.0
+offset_right = 496.0
+offset_bottom = 304.0
+
+[connection signal="pressed" from="UntitledDesign/room 101" to="." method="_on_room_101_pressed"]
+[connection signal="pressed" from="UntitledDesign/room 102" to="." method="_on_room_102_pressed"]

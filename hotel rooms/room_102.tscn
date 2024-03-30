@@ -1,3 +1,28 @@
-[gd_scene format=3 uid="uid://defp7b0r8aruq"]
+[gd_scene load_steps=4 format=3 uid="uid://defp7b0r8aruq"]
+
+[ext_resource type="Texture2D" uid="uid://6pu7047ug2o5" path="res://sunny-land/assets/environment/DALL·E 2024-03-30 16.07.07 - Generate a pixel art image of a large, somewhat tidy hotel room with a brown and cream color palette. The room should have an expansive feel with a co.webp" id="1_6iq26"]
+[ext_resource type="Script" path="res://hotel rooms/room_102.gd" id="1_xrwda"]
+[ext_resource type="Texture2D" uid="uid://7rwls0o6w1pc" path="res://sunny-land/assets/atlas/back.png" id="2_4cger"]
 
 [node name="Node2D2" type="Node2D"]
+script = ExtResource("1_xrwda")
+
+[node name="room 102" type="Sprite2D" parent="."]
+position = Vector2(576, 328)
+scale = Vector2(0.738281, 0.675781)
+texture = ExtResource("1_6iq26")
+
+[node name="Back" type="Sprite2D" parent="."]
+position = Vector2(248, 32)
+scale = Vector2(0.0605469, 0.0605469)
+texture = ExtResource("2_4cger")
+
+[node name="Button" type="Button" parent="Back"]
+light_mask = 0
+visibility_layer = 0
+offset_left = -578.484
+offset_top = -197.452
+offset_right = 677.516
+offset_bottom = 181.548
+
+[connection signal="pressed" from="Back/Button" to="." method="_on_button_pressed"]
