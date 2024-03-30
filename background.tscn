@@ -1,0 +1,28 @@
+[gd_scene load_steps=2 format=3 uid="uid://dgc44wx3ca66u"]
+
+[ext_resource type="Texture2D" uid="uid://bx34c0lrk0i11" path="res://sunny-land/assets/environment/Untitled design.png" id="1_hcrbj"]
+
+[node name="ParallaxBackground" type="ParallaxBackground"]
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="."]
+
+[node name="Background" type="Sprite2D" parent="ParallaxLayer"]
+position = Vector2(578.125, 296)
+scale = Vector2(0.578125, 0.578125)
+texture = ExtResource("1_hcrbj")
+
+[node name="Door 101" type="Button" parent="ParallaxLayer"]
+visible = false
+offset_left = 304.0
+offset_top = 136.0
+offset_right = 504.0
+offset_bottom = 464.0
+
+[node name="Door 102" type="Button" parent="ParallaxLayer"]
+visible = false
+offset_left = 664.0
+offset_top = 136.0
+offset_right = 864.0
+offset_bottom = 464.0
+
+[node name="ParallaxLayer2" type="ParallaxLayer" parent="."]

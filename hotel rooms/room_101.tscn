@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://c5pl5i18budyo"]
+
+[ext_resource type="Texture2D" uid="uid://dfe6y2oya27wt" path="res://sunny-land/assets/environment/DALL·E 2024-03-30 15.22.52 - Create a pixel art image of a large and tidy hotel room. The room should have a spacious feel with more distance between furniture and walls. The door.webp" id="1_rfojp"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Dall·e2024-03-3015_22_52-CreateAPixelArtImageOfALargeAndTidyHotelRoom_TheRoomShouldHaveASpaciousFeelWithMoreDistanceBetweenFurnitureAndWalls_TheDoor" type="Sprite2D" parent="."]
+position = Vector2(1352, 1360)
+scale = Vector2(2.64062, 2.64062)
+texture = ExtResource("1_rfojp")

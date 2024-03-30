@@ -1,15 +1,33 @@
-[gd_scene load_steps=2 format=3 uid="uid://bmisoyu7tx452"]
+[gd_scene load_steps=4 format=3 uid="uid://bmisoyu7tx452"]
 
+[ext_resource type="Script" path="res://World.gd" id="1_koeun"]
 [ext_resource type="PackedScene" uid="uid://dlwlmnc7in8fu" path="res://player/Player.tscn" id="1_nebg7"]
+[ext_resource type="Texture2D" uid="uid://bx34c0lrk0i11" path="res://sunny-land/assets/environment/Untitled design.png" id="3_hb42b"]
 
 [node name="World" type="Node2D"]
-
-[node name="Label" type="Label" parent="."]
-offset_left = 427.0
-offset_top = 110.0
-offset_right = 779.0
-offset_bottom = 266.0
-text = "This is the world"
+script = ExtResource("1_koeun")
 
 [node name="CharacterBody2D" parent="." instance=ExtResource("1_nebg7")]
 position = Vector2(369, 255)
+
+[node name="Background (door)" type="Sprite2D" parent="."]
+position = Vector2(576, 296)
+scale = Vector2(0.574219, 0.574219)
+texture = ExtResource("3_hb42b")
+
+[node name="Door 1" type="Button" parent="Background (door)"]
+show_behind_parent = true
+offset_left = -488.0
+offset_top = -279.0
+offset_right = -126.0
+offset_bottom = 293.0
+
+[node name="Door 2" type="Button" parent="Background (door)"]
+show_behind_parent = true
+offset_left = 139.32
+offset_top = -278.639
+offset_right = 501.32
+offset_bottom = 293.361
+
+[connection signal="pressed" from="Background (door)/Door 1" to="." method="_on_door_1_pressed"]
+[connection signal="pressed" from="Background (door)/Door 2" to="." method="_on_door_2_pressed"]
