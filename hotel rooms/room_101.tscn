@@ -5,6 +5,6 @@
 [node name="Node2D" type="Node2D"]
 
 [node name="Dall·e2024-03-3015_22_52-CreateAPixelArtImageOfALargeAndTidyHotelRoom_TheRoomShouldHaveASpaciousFeelWithMoreDistanceBetweenFurnitureAndWalls_TheDoor" type="Sprite2D" parent="."]
-position = Vector2(1352, 1360)
-scale = Vector2(2.64062, 2.64062)
+position = Vector2(840, 848)
+scale = Vector2(1.64062, 1.64062)
 texture = ExtResource("1_rfojp")
