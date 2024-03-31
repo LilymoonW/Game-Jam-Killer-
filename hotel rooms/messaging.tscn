@@ -1,0 +1,66 @@
+[gd_scene load_steps=3 format=3 uid="uid://bjxjnh0aqoyv5"]
+
+[ext_resource type="Script" path="res://Messaging.gd" id="1_x43ey"]
+[ext_resource type="Texture2D" uid="uid://bkmpxl770b6u8" path="res://Add a heading (1).png" id="2_k7bc1"]
+
+[node name="Messaging" type="Node2D"]
+script = ExtResource("1_x43ey")
+
+[node name="AddAHeading(1)" type="Sprite2D" parent="."]
+position = Vector2(1336, 592)
+scale = Vector2(0.636719, 0.636719)
+texture = ExtResource("2_k7bc1")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(1008, 608)
+
+[node name="Peter" type="Button" parent="."]
+show_behind_parent = true
+light_mask = 0
+visibility_layer = 0
+offset_left = 788.0
+offset_top = 684.0
+offset_right = 1016.0
+offset_bottom = 776.0
+
+[node name="Alex" type="Button" parent="."]
+show_behind_parent = true
+light_mask = 0
+visibility_layer = 0
+offset_left = 792.0
+offset_top = 504.0
+offset_right = 1016.0
+offset_bottom = 592.0
+
+[node name="Vincent" type="Button" parent="."]
+show_behind_parent = true
+light_mask = 0
+visibility_layer = 0
+offset_left = 792.0
+offset_top = 595.0
+offset_right = 1016.0
+offset_bottom = 683.0
+
+[node name="Unknown" type="Button" parent="."]
+show_behind_parent = true
+light_mask = 0
+visibility_layer = 0
+offset_left = 792.0
+offset_top = 400.0
+offset_right = 1016.0
+offset_bottom = 496.0
+
+[node name="Dad" type="Button" parent="."]
+show_behind_parent = true
+light_mask = 0
+visibility_layer = 0
+offset_left = 784.0
+offset_top = 808.0
+offset_right = 1016.0
+offset_bottom = 896.0
+
+[connection signal="pressed" from="Peter" to="." method="_on_peter_pressed"]
+[connection signal="pressed" from="Alex" to="." method="_on_alex_pressed"]
+[connection signal="pressed" from="Vincent" to="." method="_on_vincent_pressed"]
+[connection signal="pressed" from="Unknown" to="." method="_on_unknown_pressed"]
+[connection signal="pressed" from="Dad" to="." method="_on_dad_pressed"]

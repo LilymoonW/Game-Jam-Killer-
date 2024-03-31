@@ -7,5 +7,5 @@ func _on_quit_pressed():
 
 
 func _on_play_pressed():
-	get_tree().change_scene_to_file("res://hotel rooms/hallway.tscn")
+	get_tree().change_scene_to_file("res://hotel rooms/cutscene0.tscn")
 	

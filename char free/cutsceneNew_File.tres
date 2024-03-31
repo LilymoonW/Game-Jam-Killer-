@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="DialogicStyle" load_steps=2 format=3 uid="uid://divhd7ds8payk"]
+
+[ext_resource type="Script" path="res://addons/dialogic/Resources/dialogic_style.gd" id="1_ma633"]
+
+[resource]
+script = ExtResource("1_ma633")
+name = "cutsceneNew_File"
+base_overrides = {
+"global_bg_color": "Color(0.101961, 0.105882, 0.180392, 0.262745)"
+}
+layers = Array[Resource("res://addons/dialogic/Resources/dialogic_style_layer.gd")]([])
+metadata/_latest_layer = -1

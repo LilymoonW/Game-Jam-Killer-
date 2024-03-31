@@ -1,7 +1,8 @@
 extends CharacterBody2D
 @onready var anim = get_node("Steve")
 
-@export var SPEED: int = 40
+@export var SPEED: int = 90
+
 
 
 func uptateAnimation():

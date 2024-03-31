@@ -4,8 +4,8 @@
 [ext_resource type="Texture2D" uid="uid://bh6bx1re6w7we" path="res://char free/Character Steve.png" id="1_s02l8"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_gkpls"]
-radius = 20.0
-height = 60.0
+radius = 75.0
+height = 272.0
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_luql6"]
 atlas = ExtResource("1_s02l8")
@@ -470,8 +470,8 @@ script = ExtResource("1_c71y2")
 shape = SubResource("CapsuleShape2D_gkpls")
 
 [node name="Steve" type="AnimatedSprite2D" parent="."]
-position = Vector2(0, -6)
-scale = Vector2(0.9375, 1)
+position = Vector2(-4.76837e-07, 0)
+scale = Vector2(3.33224, 3.90625)
 sprite_frames = SubResource("SpriteFrames_lvl07")
 animation = &"Idle"
 

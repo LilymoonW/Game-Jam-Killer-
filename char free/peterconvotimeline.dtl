@@ -1,0 +1,22 @@
+join playercharacter 1 [animation="Slide In Left"]
+join Petercharacter 3 [animation="Slide In Right"]
+playercharacter: Thanks for meeting with me. After seeing you at the reunion I realized that William and I were really immature back then and wanted to apologize for bullying you.
+[wait_input]
+Petercharacter: Oh, I’ve already forgotten all about it. It was such a long time ago, and we were just kids.
+Petercharacter: I’m so glad to hear that. So,
+- How have you been?
+	Petercharacter: I’ve been busy. After my little sister died, we moved to Seoul and I went to SNU for college. I founded a tech-start up a couple of years ago and it’s been doing pretty well. \
+- Do you still live around here?
+	Petercharacter: No, we moved to Seoul after high school, after my little sister died. I went to college in the city and after I graduated, I founded a tech start-up that’s been doing pretty well.
+playercharacter: I’m so sorry about your sister, I didn’t know she passed away.
+- What happened?
+	Petercharacter: She was walking home at night from her friend’s house. It was rainy and a drunk driver hit and killed her. There were witnesses who reported the incident to the police but the case was never opened. After a while, the witnesses stopped agreeing to testify, claiming they probably were mistaken.
+- When did she pass?
+	Petercharacter: She passed over 15 years ago. She was only 12, walking home on a rainy day late at night. I regret not going to pick her up everyday. She was killed by a drunk driver who got away, and was never caught.
+playercharacter: I'm so sorry. so,
+- How did you like the reunion?
+	Petercharacter: It was nice to catch up with our old teachers. I can’t believe they’re still teaching. I also got to catch up with Vincent and Alex, I haven’t seen them in forever.
+- Do you keep in touch with anyone from high school?
+	Petercharacter: No, I lost touch with everyone when I moved to the city. Vincent and Alex still seemed to be quite close though.
+playercharacter: Thank you for coming to catch up.
+leave Petercharacter [animation="Slide Out Right"]

@@ -1,0 +1,19 @@
+[gd_scene load_steps=3 format=3 uid="uid://bhn0nml2ppidb"]
+
+[ext_resource type="Texture2D" uid="uid://bkimj76a4617b" path="res://Screenshot 2024-03-30 at 8.16.42 PM.png" id="1_dp6f6"]
+[ext_resource type="Script" path="res://hotel rooms/cutscene0.gd" id="2_1bmnj"]
+
+[node name="Screenshot2024-03-30At8_16_42 pm" type="Sprite2D"]
+position = Vector2(608, 200)
+scale = Vector2(1.37676, 1.37732)
+texture = ExtResource("1_dp6f6")
+script = ExtResource("2_1bmnj")
+
+[node name="Button" type="Button" parent="."]
+show_behind_parent = true
+offset_left = -436.0
+offset_top = -145.0
+offset_right = 494.0
+offset_bottom = 488.0
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]

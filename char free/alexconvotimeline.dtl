@@ -1,0 +1,21 @@
+join playercharacter 1 [animation="Slide In Left"]
+join Alexcharacter 3 [animation="Slide In Right"]
+playercharacter: Thanks for meeting with me. After seeing you at the reunion I realized that William and I were really immature back then and wanted to apologize for bullying you.
+Alexcharacter: It’s alright, I forgive you.
+playercharacter: So,
+- How have you been?
+	Alexcharacter: William hired me as his driver and secretary a couple years after we graduated high school. I’ve been working under him since.
+- Do you still live around here?
+	Alexcharacter: Yeah, I work under William now as his driver and secretary so I have to live nearby to be on stand-by at all times.
+playercharacter: Nice,
+- What's it like to work under William?
+	Alexcharacter: To be honest, it’s pretty hard. He looks down on me a lot and treats me like he did in high school. His family always jokes about how much of a reckless driver he is, there was supposedly an incident a couple of years ago, so I have to drive him around a lot, even super late at night.
+- Does William treat you well?
+	Alexcharacter: Not really. I guess he’s matured a little bit but he treats me pretty much like how he did in high school. Sometimes I don’t even get to go home because I have to drive him around at night. His family jokes about how much of a reckless driver he is and I’ve heard rumors that he was involved in an accident a couple of years ago.
+playercharacter: And,
+- What are those red marks? What happened to your hands?
+	Alexcharacter: I got into an altercation with William. He got physical with me because I made him late for an important meeting with some chemical engineer for a vitamin. He has pretty bad anxiety so he took them constantly, and I guess he was trying to get more samples.
+- Were you with William the whole time during the reunion?
+	Alexcharacter: I arrived with him because I drove him, but he was embarrassed to be seen with me so I went to find Vincent and Peter. He was also angry with me because I made him late for an important meeting with some chemical engineer for a vitamin. He’s has pretty bad anxiety so he took them constantly, and I guess he was trying to get more samples.
+playercharacter: Thanks for coming to chat with me.
+leave Alexcharacter [animation="Slide Out Right"]

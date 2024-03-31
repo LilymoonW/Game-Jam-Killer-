@@ -1,0 +1,164 @@
+{
+"@path": "res://addons/dialogic/Resources/character.gd",
+"@subpath": NodePath(""),
+"_translation_id": "",
+"color": Color(1, 1, 1, 1),
+"custom_info": {
+"sound_mood_default": "",
+"sound_moods": {},
+"style": ""
+},
+"default_portrait": "Add a heading (5)",
+"description": "pharmacist",
+"display_name": "Vincent",
+"mirror": false,
+"nicknames": [""],
+"offset": Vector2(0, 0),
+"portraits": {
+"Add a heading (2)": {
+"export_overrides": {
+"image": "\"res://char free/Add a heading (2).png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"Add a heading (3)": {
+"export_overrides": {
+"image": "\"res://char free/Add a heading (3).png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"Add a heading (4)": {
+"export_overrides": {
+"image": "\"res://char free/Add a heading (4).png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"Add a heading (5)": {
+"export_overrides": {
+"image": "\"res://char free/Add a heading (5).png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"Character Steve": {
+"export_overrides": {
+"image": "\"res://char free/Character Steve.png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"Screenshot 2024-03-30 at 8.22.34 PM": {
+"export_overrides": {
+"image": "\"res://char free/Screenshot 2024-03-30 at 8.22.34 PM.png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"Screenshot 2024-03-30 at 8.23.18 PM": {
+"export_overrides": {
+"image": "\"res://char free/Screenshot 2024-03-30 at 8.23.18 PM.png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"Screenshot 2024-03-30 at 8.23.39 PM": {
+"export_overrides": {
+"image": "\"res://char free/Screenshot 2024-03-30 at 8.23.39 PM.png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"Screenshot 2024-03-30 at 8.25.08 PM": {
+"export_overrides": {
+"image": "\"res://char free/Screenshot 2024-03-30 at 8.25.08 PM.png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"Screenshot 2024-03-30 at 8.25.51 PM": {
+"export_overrides": {
+"image": "\"res://char free/Screenshot 2024-03-30 at 8.25.51 PM.png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"Suspect 1": {
+"export_overrides": {
+"image": "\"res://char free/Suspect 1.png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"Suspect 2": {
+"export_overrides": {
+"image": "\"res://char free/Suspect 2.png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"Suspect 3": {
+"export_overrides": {
+"image": "\"res://char free/Suspect 3.png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"Victim (bully 1)": {
+"export_overrides": {
+"image": "\"res://char free/Victim (bully 1).png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"global": {
+"export_overrides": {
+"image": "\"res://char free/global.png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"peter": {
+"export_overrides": {
+"image": "\"res://char free/peter.png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+}
+},
+"scale": 1.0
+}

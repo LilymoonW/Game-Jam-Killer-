@@ -1,0 +1,21 @@
+join playercharacter 1 [animation="Slide In Left"]
+join Vincentcharacter 3 [animation="Slide In Right"]
+playercharacter: Thanks for meeting with me. After seeing you at the reunion I realized that William and I were really immature back then and wanted to apologize for bullying you.
+Vincentcharacter: I accept your apology but I still resent you and William. I had a miserable time in high school and was hospitalized multiple times from depression
+playercharacter: So,
+- How have you been?
+	Vincentcharacter: After high school, I took a break from school to work on my mental health. I realized I really liked chemistry so I went back to school and got my doctorate in chemical engineering. I’m at Biogen now as a chemist.
+- Do you still live around here?
+	Vincentcharacter: Yes I do. I recently got married and we decided to stay here. I’m a chemist at Biogen which is not too far of a commute from our house.
+playercharacter: Wow a chemist...
+- What are you working on now?
+	Vincentcharacter: I started developing a vitamin to help anxiety, but it’s poisonous if taken with alcohol. It’s not yet out on the market, though I’ve been sending samples out to health companies.
+- What do you do as a chemist?
+	Vincentcharacter: My job is to make different vaccines for new viruses. Recently as a personal project, I started developing a vitamin for anxiety. I’ve been sending out samples to health companies to get research grants. It isn’t yet out on the market because it’s toxic if taken with alcohol but it’s getting there.
+playercharacter: They found an untraceable chemical in William’s bloodstream after he died.
+- Did anyone else know about the side effects?
+	Vincentcharacter: No, this is a personal project so no one knows about the side effects or that I had started making the vitamin. I had discovered the side effect not too long after the samples were already sent out.
+- Did you send the vitamin samples to William’s company too?
+	Vincentcharacter: Oh right, I forgot William owned a company. He should’ve gotten a sample too then - I sent one out to almost every company in this city.
+playercharacter: Thanks for coming to chat with me.
+leave Vincentcharacter [animation="Slide Out Left"]
